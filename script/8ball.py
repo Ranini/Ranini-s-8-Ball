@@ -9,7 +9,7 @@ def bybye():
             x = 4
             for n in range(3):
                 x = (x - 1)
-                print(x)
+                print(Foer.RED + x)
                 sleep(1.0)
             quitter = True
             exit(0)
