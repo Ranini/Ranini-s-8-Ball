@@ -1,20 +1,22 @@
-from random import choice
-from time import sleep
-from clear import clear
-from colorama import Fore
-import fade
-import os
+from random import choice #importation du module random pour un choix automatiquec de la réponse
+from time import sleep #importation de sleep pour le décompte
+from clear import clear #srx c'est pour clear un terminal
+from colorama import Fore #pour changer la couleur du terminal
+import fade #parce que je sais pas faire de dégradé avec colorama et cela son stylé et facile
+import os #pour changer le titre du terminal
 
-def bybye():
-            x = 4
-            for n in range(3):
-                x = (x - 1)
-                print(Foer.RED + x)
-                sleep(1.0)
-            quitter = True
-            exit(0)
+def byebye(): #fonction pour quitter le jeu de mqnirèe stylé
+    sur = input(Fore.RED + "Êtes-vous sûr? (tapez 'oui' si vous êtes sûr) ")
+    if sur.lower() == "oui":
+        x = 4
+        for n in range(3):
+            x -= 1
+            print(x)
+            sleep(1.0)
+        print("0" + Fore.RESET)
+        exit()
             
-def set_terminal_title(title):
+def set_terminal_title(title): #fonction permettant de chqnger le nom du programme (fait avec chatgpt stackoverflow n'a pas tout dit)
     # Vérifie si le système d'exploitation est Windows
     if os.name == 'nt':
         os.system(f"title {title}")
@@ -25,6 +27,8 @@ def set_terminal_title(title):
 # Utilisation
 nouveau_titre = "Ranini\u0027s ball"
 set_terminal_title(nouveau_titre)
+
+#liste des réponses disponibles
 
 response = [
         "C'est certain",
@@ -42,7 +46,7 @@ response = [
         "Outlook n'est pas si bon",
         "Très douteux"
     ]
-quitter = False
+quitter = False #permet de rester dans la boucle et de la sortir (pouvoir poser plusieurs questions)
 logo = (r"""
 
 
@@ -65,22 +69,19 @@ logo = (r"""
 
 """)
 
-faded_logo = fade.water(logo)
+faded_logo = fade.water(logo) #permet de faire un dégradé de couleur de couleur bleu
 
 print(faded_logo)
 while not quitter:
-    question = input(Fore.RESET + "Quelle est votre question? (tapez 'quitter' pour quitter)")
+    question = input(Fore.RESET + "Quelle est votre question? (tapez 'quitter' pour quitter) ") #boucle principal
     if question.lower() == "quitter":
-        sur = input(Fore.RED + "Êtes-vous sûr? (tapez 'oui' si vous êtes sûr)")
-        if sur.lower() == "oui":
-            bybye()
-                        
+            byebye()                        
     else:
                 answer_string = fade.random(choice(response))
                 print(answer_string)
-                next_question = input("voulez-vous passer au suivant? (tapez suivant) ")
+                next_question = input("voulez-vous passer au suivant? (tapez suivant) ou tappez autre chose pour quitter: ")
                 if next_question.lower() == "suivant":
                     clear()
                     print(faded_logo)
                 else:
-                    bybye()
+                    byebye()
