@@ -1,0 +1,4 @@
+clear==2.0.0
+colorama==0.4.6
+fade==0.0.9
+py2exe==0.13.0.1
