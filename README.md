@@ -17,15 +17,17 @@
 
     
     cd path/to/main.py
-    python main.py0
+    python main.py
 
 ## How use it and functionality
 
 **This program work with python and random, fader, colorama, time etc...**
 
-> colorised text
+> colored text
 
 >styled exit screen
+
+>Translate in english
 
 ![Image 2](https://github.com/Ranini/Ranini-s-8-Ball/blob/main/Pictures/exit_picture.png?raw=true)
 
