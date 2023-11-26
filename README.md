@@ -33,7 +33,7 @@
 
 # Support me 
 
-### To support  me star and for this repo 💖
+### To support  me star and fork this repo 💖
 
 # License 
 
