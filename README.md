@@ -29,9 +29,13 @@
 
 ![Image 2](https://github.com/Ranini/Ranini-s-8-Ball/blob/main/Pictures/exit_picture.png?raw=true)
 
->later: GUI and more sentences
+## plus-tard
 
->Translate in english
+>plus de réponses de fin
+
+>réponses dans un package pipy
+
+>Traduction en anglais
 
 # Me supporter! 
 
