@@ -2,41 +2,41 @@
 
 ![Image 1](https://github.com/Ranini/Ranini-s-8-Ball/blob/main/Pictures/main_picture.png?raw=true)
 
-**Hi i Ranini! and it's a 8ball (it's my first proejct made in 2 day)**
+**Salut! c'est Ranini et voici mon project de 8 ball fait en deux jours*!*
 
 ## Installation
 
-**To install run this commands in cmd:**
+**Pour l'installer lancez ces commandes dans le cmd:**
 
     
     cd path/to/requirements.txt
     pip install -r requirements.txt
 
-## Launching
-**To lauch run this commands or click x2 on file:**
+## Lancement
+**Pour lancer le fichier veuillez lancer ces commandes ou tout simplement x2 click sur le fichier: **
 
     
     cd path/to/main.py
     python main.py
 
-## How use it and functionality
+## Comment le programme a été créé et comment l'utiliser
 
-**This program work with python and random, fader, colorama, time etc...**
+**Ce programme fonctionne avec python et random, fader, colorama, time etc...**
 
-> colored text
+> texte coloré
 
->styled exit screen
-
->Translate in english
+>écran de fin stylé
 
 ![Image 2](https://github.com/Ranini/Ranini-s-8-Ball/blob/main/Pictures/exit_picture.png?raw=true)
 
 >later: GUI and more sentences
 
-# Support me 
+>Translate in english
 
-### To support  me star and fork this repo 💖
+# Me supporter! 
+
+### Pour me supporter, star et forkez le repo (j'aimerai bien voir des version amélioré de mon répo) 💖
 
 # License 
 
-### It's on GNU GENERAL PUBLIC LICENSE
+### Ce project est sous GNU GENERAL PUBLIC LICENSE
